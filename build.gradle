@@ -1,4 +1,4 @@
-// get the dependeny to draw uml and all the
+// get the dependency to draw uml and all the
 // other fancy stuff
 buildscript {
     dependencies {
