@@ -1,0 +1,16 @@
+= Installation von Minecraft
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: dance
+:idprefix:
+
+Um Minecraft zu installieren musst es auf Deinen Rechner herunterladen. Gehe hierzu auf folgende Seite: https://www.minecraft.net/de-de/download/alternative/
+
+Hier kannst Du Minecraft herunterladen(Java-Edition), installieren und erstmal als Demo-Version testen.
+Wenn es Dir gefällt, kannst Du die Vollversion freischalten indem Du sie hier: https://www.minecraft.net/de-de/ kaufst.
+
+Minecraft kaufen, heißt nicht eine bestimme Version für ein bestimmtest Betriebssystem zu kaufen. Vielmehr, kannst Du alle zukünftigen Versionen für alle Betriebssysteme nutzen (betrifft die Java-Edition).
+
+Wenn Du also Deine ersten Stunden in Minecraft verbringst, dann lass mich Dir noch folgende Seite empfehlen, die wirklich sehr viel nützliche Information zum Spiel hat.
+
+https://minecraft-de.gamepedia.com/Minecraft_Wiki

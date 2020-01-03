@@ -1,0 +1,27 @@
+= Programmieren von Minecraft Plugins mit Java
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: dance
+:idprefix:
+
+== Worum es hier geht
+Diese Anleitung ist in erster Linie interessant für Dich, wenn Du noch keine, oder nur wenig Erfahrung im Programmieren hast. Ich werde versuchen alles so zu erklären, dass Du auch ohne Programmierkenntnisse zurecht kommst. Wenn mir das nicht gelingt, dann schreibe das einfach in einen Kommentar und ich gebe mein Bestes, verständlicher zu werden.
+
+Es wäre natürlich schon ganz praktisch wenn Du entweder schon gerne [Minecraft](https://www.minecraft.net/de-de/ "Minecraft") spielst. Wenn nicht, dann solltest Du damit anfangen ;-)
+
+== Was Du benötigst um loszulegen
+1. Du brauchst unbedingt mindenstens einen [Minecraft Account (für die Minecraft Java Edition)](https://www.minecraft.net/de-de/)
+1. Idealerweise ein [Linux Betriebssystem](https://ubuntu.com/desktop).
+Linux ist natürlich nicht unbedingt nötig. Aber ich entwickele nur unter Linux und ein Teil der Erklärungen, sind speziell auf Linux-Nutzer ausgerichtet. Wenn Du einen Mac hast, ist alles fast gleich. Nur unter Windows musst Du an ein paar Stellen umdenken.
+Wenn Du hier Probleme hast, dann kannst Du trotzdem gerne einfach über die Kommentare fragen und ich versuche Dir zu helfen. Das meiste von den Erklärungen ist unabhängig davon welches Betriebssystem nutzt.
+1. Ein installiertes [Java](https://openjdk.java.net/install/) (mindestens in der Version 8, ich werde das in einem der späteren Kapitel beschreiben)
+1. Eine Entwicklungsumgebung zum Schreiben des Programm codes. Ich werde hier alles anhand von [Intellij](https://www.jetbrains.com/idea/ "Intellij") erklären.
+
+
+== Nun geht es los
+
+1. link:http://frubumi.de/wir-installieren-minecraft/[Wir installieren Minecraft]
+1. [Wir installieren und konfigurieren den Minecraft-Server](http://frubumi.de/2019/11/17/installation-und-konfiguration-des-minecraft-servers/)
+1. Wir installieren ein schon existierendes Minecraft-Plugin
+1. Wir setzten konfigurieren eine Enwicklungsumgebung und schreiben ein erstes Plugin
+1. Wir automatisieren die Erzegung des Plugins und das Installieren im Minecraft-Server

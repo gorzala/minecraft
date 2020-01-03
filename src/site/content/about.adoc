@@ -1,0 +1,15 @@
+= Über mich
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: dance
+:idprefix:
+
+Ich bin ein 42 Jahre alter
+
+- Software-Entwickler
+- Tango Tänzer
+- Gitarren Spieler
+- Irgendwie ein Bastler
+- Wanderer
+
+und irgendwie auch ein einer Menge anderem Kram interessiert.

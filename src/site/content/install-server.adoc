@@ -1,0 +1,49 @@
+= Installation und Konfiguration des Minecraft-Servers
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: dance
+:idprefix:
+
+# Welchen Server werden wir nutzen?
+
+Der Standart-[Minecraft Server](https://www.minecraft.net/de-de/download/server/) lässt sich leider nicht ohne weiteres durch Plugins erweitern. Deswegen nutzen wir ein anderes Projekt.
+
+# Spigot Minecraft Server
+Der [Spigot](https://www.spigotmc.org/) ist eine erweiterung des Standart Minecraft Servers.
+
+Mit folgenden Schritten kannst Du eine solchen Server leicht installieren:
+
+## Herunterladen
+Lad die Datei BuildTools.jar [hier](https://hub.spigotmc.org/jenkins/job/BuildTools/) herunter.
+
+## Bauen des Servers
+Ich empfehle Dir den Server in Deinem Homeverzeichniss in folgendem Order zu speichern:
+
+```bash
+cd ~
+mkdir -p ~/local/spigot/buildtools
+cp Downloads/BuildTools.jar ./local/spigot/buildtools
+```
+
+Die Datei BuildTools.jar enthält noch nicht wirklich den Server. Sie enthält mehr ein Programm, das den Server baut. Dazu müssen noch fehlende Teil aus dem Internet nachgeladen werden.
+
+Starte den Prozess des Bauens einfach druch folgendem Befehl
+
+```bash
+cd ~/local/spigot/buildtools/
+java -jar  BuildTools.jar  BuildTools.jar --rev latest
+```
+
+Dieser Befehl lädt jetzt alles aus dem Internet nach was benötigt wird und baut den Server. Du sollest eine Menge Ausgaben auf dem Monitor sehen und je nachdem wie schnell Dein Rechner ist, kann es auch eine Zeit lang dauern.
+
+Wenn alles geklappt hat, dann sollte der Inhalt des Verzeichnisses ungefähr so aussehen:
+
+```bash
+root@ryzen:/home/marc/local/spigot/buildtools# ls
+apache-maven-3.6.0  BuildTools.jar      Bukkit       Spigot             work
+BuildData           BuildTools.log.txt  CraftBukkit  spigot-1.14.4.jar
+```
+In meinem Fall heißt die Datei die den Server enthält "spigot-1.14.4.jar", da zum Zeitpunkt des Schreibens dieses Blogs, die Version 1.14 die letzte Version des Minecraft-Servers war.
+
+## Installieren des Servers
+Kopiere den Server aus dem Build Verzeichnis in ein
