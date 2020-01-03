@@ -4,15 +4,6 @@
 :jbake-tags: dance
 :idprefix:
 
-[plantuml]
-....
-@startuml
-object firstObject
-object "My Second Object" as o2
-@enduml
-....
-
-
 == Worum es hier geht
 Diese Anleitung ist in erster Linie interessant für Dich, wenn Du noch keine, oder nur wenig Erfahrung im Programmieren hast. Ich werde versuchen alles so zu erklären, dass Du auch ohne Programmierkenntnisse zurecht kommst. Wenn mir das nicht gelingt, dann schreibe das einfach in einen Kommentar und ich gebe mein Bestes, verständlicher zu werden.
 
