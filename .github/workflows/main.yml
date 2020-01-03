@@ -9,7 +9,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
+    - name: install graphviz
+      run: sudo apt-get install graphviz
+    - name: Bake the site
       run: ./gradlew bake
     - name: ftp-action
       uses: sebastianpopp/ftp-action@v1.1.0
