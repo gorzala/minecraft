@@ -1,0 +1,24 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: ./gradlew bake
+    - name: ftp-action
+      uses: sebastianpopp/ftp-action@v1.1.0
+      with:
+        # FTP host
+        host: ${{ secrets.MINECRAFT_FTP_HOST }}
+        # FTP userg
+        user: ${{ secrets.MINECRAFT_FTP_USER }}
+        # FTP password
+        password:  ${{ secrets.MINECRAFT_FTP_PASS }}
+        # Local directory
+        localDir: build/docs/html5/site/
